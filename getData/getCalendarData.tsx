@@ -14,6 +14,10 @@ export const getUpcomingEvents = async (maxResults = 60) => {
     const GOOGLE_CALENDAR_ID = process.env.GOOGLE_CALENDAR_ID;
     const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 
+
+    console.log(GOOGLE_CALENDAR_ID);
+    console.log(GOOGLE_API_KEY);
+
     const params = new URLSearchParams({
         key: GOOGLE_API_KEY,
         timeMin: now,
