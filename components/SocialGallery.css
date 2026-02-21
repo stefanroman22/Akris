@@ -1,0 +1,19 @@
+
+
+.header-social{
+    justify-content: space-between
+}
+
+@media (max-width: 620px){
+ 
+    .header-social{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-container p,
+    .text-container h2 {
+        text-align: center;
+    }
+}

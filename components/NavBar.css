@@ -1,0 +1,37 @@
+
+
+.hamburger-menu{
+    display: none;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.logo{
+    width: 60px;
+}
+
+@media (max-width: 900px){
+    .hamburger-menu{
+        display: flex;
+    }
+
+    .desktop-navbar{
+        display: none;
+    }
+
+    .desktop-search-bar{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+}
+
+@media (max-width: 450px){
+    .logo{
+        width: 50px;
+    }
+}
